@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body {
+            /* background-color: #c37922;
+            color: rgb(0, 0, 0); */
+            background-color: #d2ecf5;
+            color: #008080;
+            box-sizing: border-box;
+            margin: 0rem 12rem;
+            position: relative;
+            left: -12rem;
+        }
+
+        /* .h1 {
+           
+            padding: 6px 0px;
+            text-align: center;
+            position: relative;
+            top: -2px;
+            right: -59px;
+            display: inline-block;
+            width: 120%;
+            font-family: "Roboto", sans-serif;
+            text-decoration: underline;
+            cursor: pointer;
+        } */
+        .h1{
+            font-family: 'Lobster', cursive;
+            font-size: 2.5rem;
+            color: #1e90ff;
+            /* DodgerBlue */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            letter-spacing: 2px;
+            line-height: 1.2;
+            padding: 10px;
+            background: linear-gradient(to right, #1e90ff, #00bfff);
+            /* DodgerBlue to DeepSkyBlue */
+            /* -webkit-background-clip: text; */
+            -webkit-background-clip: text;
+            color: transparent;
+            /* border-bottom: 2px solid #1e90ff; */
+            transition: color 0.3s ease,  0.3s ease;
+            text-align: center;
+            text-decoration: underline #1e90ff ;
+            position: relative;
+            left: 6rem;
+        }
+
+        .h1:hover {
+            color: #00bfff;
+            /* DeepSkyBlue */
+            background: linear-gradient(to right, #00bfff, #1e90ff);
+            /* Reverse gradient on hover */
+        }
+
+
+
+
+
+        .text {
+            /* font-family: "Roboto", sans-serif; */
+            font-family: 'Lobster', cursive;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 21px;
+        }
+
+        .begin{
+            font-family: 'Lobster', cursive;
+            font-size: 2.5rem;
+            color: #1e90ff;
+            /* DodgerBlue */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            letter-spacing: 2px;
+            line-height: 1.2;
+            padding: 10px;
+            background: linear-gradient(to right, #1e90ff, #00bfff);
+            /* DodgerBlue to DeepSkyBlue */
+            -webkit-background-clip: text;
+            color: transparent;
+            /* border-bottom: 2px solid #1e90ff; */
+            transition: color 0.3s ease, background 0.3s ease;
+            /* text-align: center; */
+            text-decoration: underline #1e90ff ;
+            /* position: relative;
+            left: 6rem; */
+            display: block;
+        }
+
+        .begin:hover {
+            color: #00bfff;
+            /* DeepSkyBlue */
+            background: linear-gradient(to right, #00bfff, #1e90ff);
+            /* Reverse gradient on hover */
+        }
+        .enter{
+            font-family: 'Lobster', cursive;
+            font-size: 2.5rem;
+            color: #1e90ff;
+            /* DodgerBlue */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            letter-spacing: 2px;
+            line-height: 1.2;
+            padding: 10px;
+            background: linear-gradient(to right, #1e90ff, #00bfff);
+            /* DodgerBlue to DeepSkyBlue */
+            -webkit-background-clip: text;
+            color: transparent;
+            /* border-bottom: 2px solid #1e90ff; */
+            transition: color 0.3s ease, background 0.3s ease;
+            /* text-align: center; */
+            text-decoration: underline #1e90ff ;
+            /* position: relative;
+            left: 6rem; */
+            display: block;
+            font-weight: bold;
+        }
+
+        .enter:hover {
+            color: #00bfff;
+            /* DeepSkyBlue */
+            background: linear-gradient(to right, #00bfff, #1e90ff);
+            /* Reverse gradient on hover */
+            
+        }
+            
+            /* 
+                    .begin{
+                        font-size: 32px;
+                        cursor: pointer;
+                        color: #6c00ff;
+                    } */
+            
+                    .subtext {
+                        /* font-family: "Roboto", sans-serif; */
+                        font-family: 'Lobster', cursive;
+                        cursor: pointer;
+                        font-size: 19px;
+                    }
+            
+                    .img {
+                        display: inline-block;
+                        height: 18rem;
+            border: 2px solid black;
+                    }
+            
+                    .pic {
+                        display: inline-block;
+                        height: 21rem;
+                        width: 37vw;
+                        border: 2px solid black;
+            
+                    }
+            
+                    /* .enter {
+                        font-weight: bold;
+                        cursor: pointer;
+                        color: #6c00ff;
+                        display: block;
+                        position: relative;
+                        top: 23px;
+                        font-size: 32px;
+                    } */
+
+
+
+
+
+        .chat {
+            position: relative;
+            top: 5px;
+            /* font-family: "Roboto", sans-serif; */
+            font-family: 'Lobster', cursive;
+            cursor: pointer;
+            font-size: 19px;
+        }
+/* 
+        .noty {
+            font-weight: bold;
+            cursor: pointer;
+            color: #6c00ff;
+            display: block;
+            position: relative;
+            top: 23px;
+            font-size: 32px;
+        } */
+
+
+          
+        .noty{
+            font-family: 'Lobster', cursive;
+            font-size: 2.5rem;
+            color: #1e90ff;
+            /* DodgerBlue */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            letter-spacing: 2px;
+            line-height: 1.2;
+            padding: 10px;
+            background: linear-gradient(to right, #1e90ff, #00bfff);
+            /* DodgerBlue to DeepSkyBlue */
+            -webkit-background-clip: text;
+            color: transparent;
+            /* border-bottom: 2px solid #1e90ff; */
+            transition: color 0.3s ease, background 0.3s ease;
+            /* text-align: center; */
+            text-decoration: underline #1e90ff ;
+            /* position: relative;
+            left: 6rem; */
+            display: block;
+            font-weight: bold;
+        }
+
+        .noty:hover {
+            color: #00bfff;
+            /* DeepSkyBlue */
+            background: linear-gradient(to right, #00bfff, #1e90ff);
+            /* Reverse gradient on hover */
+        }
+
+        .mess {
+            position: relative;
+            top: 5px;
+            /* font-family: "Roboto", sans-serif; */
+            font-family: 'Lobster', cursive;
+            cursor: pointer;
+            font-size: 19px;
+        }
+
+        .food {
+            display: inline-block;
+            height: 30rem;
+            width: 30rem;
+            border: 2px solid black;
+        }
+
+        .hah {
+            font-family: "Roboto", sans-serif;
+            font-weight: bold;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .container {
+            font-family: 'Baloo Bhai', cursive;
+            display: inline-block;
+            margin: 7px 10px;
+
+        }
+
+        .angry {
+            position: relative;
+            left: 1rem;
+            width: 36vw;
+            /* background-color: #0a3338; */
+            background-color:#008080 ;
+            /* color: #008080; */
+            text-align: center;
+            color: white;
+            display: block;
+            /* padding: 4PX 8px; */
+            border: 4px solid rgb(0, 0, 0);
+            border-radius: 10px;
+            height: 15rem;
+        }
+
+        .inpot {
+            border-radius: 5px;
+            width: 240px;
+            padding: 1px 50px;
+            text-align: center;
+            font-family: 'Baloo Bhai', cursive;
+            font-size: 16px;
+            margin: 10px 13px;
+            margin-bottom: 19px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .inpet {
+            width: 240px;
+            border-radius: 5px;
+            padding: 1px 50px;
+            text-align: center;
+            font-family: 'Baloo Bhai', cursive;
+            font-size: 16px;
+            margin-bottom: 4px;
+            cursor: pointer;
+        }
+
+        .btn {
+            color: black;
+            background-color: #ded4db;
+            border-radius: 20px;
+            padding: 2px 23px;
+            margin: 7px 0px;
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            font-size: 14px;
+            text-decoration: none;
+            position: relative;
+            top: 15px;
+        }
+
+        .btn:hover {
+            background-color: rgb(114, 145, 130);
+        }
+
+        .high {
+            width: 98vw;
+        }
+
+        .hub {
+            /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+            position: relative;
+            /* left: 24rem; */
+            top: 46px;
+            cursor: pointer;
+            /* border: 2px solid white; */
+            font-style: italic;
+            /* background-color: blueviolet; */
+    display: block;
+    width: 21rem;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Baloo Bhai', cursive;
+    /* background-color: #f0f0f0; */
+    color: #008080;
+        }
+
+        .copy {
+            cursor: pointer;
+            text-align: center;
+            /* background-color: #6c81da; */
+            position: relative;
+            top: 1rem;
+            width: 22vw;
+            font-size: 10px;
+            font-family: 'Baloo Bhai', cursive;
+            left: 982px;
+            /* background-color: #f0f0f0; */
+            color: #008080;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="h1">PHP Documentation</h1>
+    <p class="text">Embark on a Journey through the Dynamic landscape of PHP</p>
+    <hr class="high">
+    <h1>
+        <a href="beginner.html" class="begin">Beginner</a>
+    </h1>
+    <p class="subtext">A tutorial that goes over the beginning topics of PHP, helping you grasp the necessary knowledge
+        to start your journey in Web Development with confidence.</p>
+    <br>
+    <img src="Images/7.jpeg" alt="image not show" class="img">
+
+    <a href="intermediate.html" class="enter">Intermediate</a>
+    <p class="chat">The End game topics, that would differentiate you from others.</p>
+    <br>
+    <br>
+    <img src="Images/8.jpeg" alt="error 408" class="pic">
+
+    <a href="Asynchronous.html" class="noty">Asynchronous PHP</a>
+    <p class="mess">The side of php often forgotten, however essential in case of API's</p>
+    <br>
+    <br>
+    <img src="Images/2.webp" alt="error18+" class="food">
+    <br>
+    <br>
+    <hr class="high">
+    <br>
+    <br>
+    <div class="angry">
+        <h2 class="hah">Log In to Your Account</h2>
+        <div class="container">
+            <form action="main.html"></form>
+            <input class="inpot" type="text" name="" placeholder="Enter your Username">
+            <br>
+            <input class="inpet" type="text" name="" placeholder="Enter your Password">
+        </div>
+        <br>
+        <!-- <button class="btn">Login</button> -->
+        <a href="login.html" class="btn">Login</a>
+    </div>
+    <h3 class="hub">Developed & Designed by TECH INNOVATOR HUB</h3>
+    <p class="copy">Copyright&copy;2024; Designed by TECH INNOVATOR HUB</p>
+
+
+</body>
+
+</html>
+
